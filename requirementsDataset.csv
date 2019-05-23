@@ -1,0 +1,722 @@
+﻿Requirements,Classification
+The system should provide or store items and quantities in a shopping cart until the end user is ready to purchase them.,Functional
+"The system should calculate the total of the purchase, and include applicable taxes.",Functional
+The system should accept credit cards as a form of payment.,Functional
+"The system should confirm to the end user once the order has been processed, and provide a confirmation number.",Functional
+The system should allow the user to register and should accept the details from the user,Functional
+The system should allow the user to make changes to cart ,Functional
+The sytsem should allow the user to cancel an order,Functional
+The system should allow the librarian to login ,Functional
+The system should allow the librarian to update the library records,Functional
+The system should allow the user to view the number of books available in each category,Functional
+The system should allow the librarian to add books and their information,Functional
+The system should allow the librarian to edit the information of existing books,Functional
+The system should allow the librarian to view the number of books available in each category,Functional
+The system should allow the librarian to add books and their information,Functional
+The system should allow the librarian to edit the information of existing books,Functional
+The system should allow the librarian to issues books,Functional
+The system should allow the user to check book availability,Functional
+The system should allow the user to serach for any book ,Functional
+The system should allow the student to see the list of issued books,Functional
+The system should allow the user to feed their health related details,Functional
+The system should provide the list of doctors names,Functional
+The system should allow the user to order medicines,Functional
+The system should provide the payment options,Functional
+The system should allow the user to check for the availability of medicines,Functional
+The system should allow the admin to update the medicine details,Functional
+The system should provide the doctor details,Functional
+The system should allow the user to give feedback,Functional
+The system should allow the user to provide ratings,Functional
+The system should allow the user to provide reviews,Functional
+The system should allow the user to chat or have conversation with doctors,Functional
+The system should allow the user to make calls to the doctors,Functional
+The system should allow the user to make video calls to the doctors,Functional
+The system should allow the user to sort the appointments on the basis of first come first serve basis,Functional
+The system should allow input of patient data ,Functional
+The system should request username and password for access to data,Functional
+The system should require high levels of error correction and input validation,Functional
+The system should allow browsing by the physician of historical medical information of his/her patients only,Functional
+The system should identify the patient by a unique numeric identifier derived from a function performed on the patient’s birth date,Functional
+"The system should retrieve, update, and store data from multiple input locations including but not limited to hospital workstations, physician workstations, inbound emergency vehicles, and electronic monitoring equipment",Functional
+"The system should allow patient to view their own medical record online allowing changes only to address, phone number, and insurer after initial input",Functional
+The system should display the correct patient name,Functional
+The system should display the correct time of day in compliance with ISO 8601,Functional
+The system should operate without interruption twenty-four hours a day,Functional
+The system should allow input of diagnostic imagery,Functional
+The system should retrieve and sort medical record information and allow for screen and print output of said information,Functional
+The system should provide access to the complete medical record ,Functional
+"The system should be organized in way that guides consumers to the most important information in their medical record including diagnosis, medications and results",Functional
+The system allows consumers to identify and edit or annotate information in their medical record that is out of date or incorrect,Functional
+The system allows consumers to manage their prescriptions,Functional
+The system provides access to the medical record in case of an emergency,Functional
+The system allows consumers to record and share their treatment goals and concerns with healthcare providers,Functional
+The system should estimate stocks needs based on past consumption,Functional
+The system should estimate stocks based on minimum quantity threshold ,Functional
+The system should estimate stocks based on aggregating requisitions by intermediate levels,Functional
+The system should estimate stocks based on target populations,Functional
+The system should enable flexible order point based on user-defined criteria ,Functional
+The system should display past consumption data ,Functional
+The system should display current available and usable on-hand quantity of each stock item ,Functional
+The system should display open order in transit inbound ,Functional
+The system should display open outbound orders and projected usage ,Functional
+The system should display current stock levels at all relevant levels ,Functional
+The system should display expiry dates for on-hand stock ,Functional
+The system should display lead time for order fulfillment ,Functional
+The system should validate order by the originator ,Functional
+The system should generate item cost at time requisition,Functional
+The system should generate the the calculate order cost at time requisition ,Functional
+The system should display minimum quantity order increments ,Functional
+The system should print the requisition ,Functional
+The system should submit requisition ,Functional
+The system should maintain order status,Functional
+The system should maintain approval status,Functional
+The system should maintain shipping status,Functional
+The system should provide approval mechanism at appropriate levels,Functional
+The system should provide rejection mechanism at appropriate levels,Functional
+"The sytem should modify the requisition , if needed",Functional
+The system should accept notification of arrival of shipment,Functional
+The system should record shipment information prior to arrival,Functional
+The system should find if there is a difference between the notified quantities and order quantities,Functional
+The system should notify appropriate parties of discrepancies,Functional
+The system should initiate backorder as appropriate,Functional
+The system should reject the order if necessary,Functional
+The sytem should show the storage space available by type,Functional
+The system should provide details of the shipment to store manage,Functional
+The system should record shipment information ,Functional
+The system should link shipment information to purchase order and arrival notification ,Functional
+The system should record damage information for individual line items,Functional
+The system should record discrepancy information for individual line items,Functional
+The system should create receiving report ,Functional
+The system should record authorization of receipt by appropriate individuals,Functional
+ The system should display storage requirements for items ,Functional
+The system should propose space for each stock item ,Functional
+The system should update stock records with quantity received per lot,Functional
+The sytem should update stock records with quantity expiry date,Functional
+The sytem should record frozen conditions status ,Functional
+"The system should set threshold conditions per product, as appropriate ",Functional
+The system should alert conditions outside threshold ,Functional
+The system should track lots and expiry dates ,Functional
+The system should assign location based on product condition ,Functional
+The system should display and transmit alerts and notifications for pending expiries ,Functional
+The system should display and transmit alerts and notifications for stock outs,Functional
+The system should display and transmit alerts and notifications for overstock,Functional
+The system should display and transmit alerts and notifications for understock ,Functional
+The system should define multiple inventory storage locations ,Functional
+The system should record warehouse-to-warehouse transfers ,Functional
+The system should flag items as hazardous ,Functional
+The system should flag items as appropriate ,Functional
+The system should Group requisitions into trips ,Functional
+"The system should verify that requestor is authorized, if appropriate ",Functional
+"The system should verify credit worthiness of requestor, if appropriate ",Functional
+The system should display requisition history ,Functional
+The system should display current usable stock on hand for requisitioned items by batch ,Functional
+The system should recommend appropriate batch to pick from stock ,Functional
+"The system should set parameters for allocation, as appropriate ",Functional
+The system should display handling instructions ,Functional
+The system should display availability of appropriate packing and transportation materials and monitoring devices ,Functional
+The system should provide instructions for packaging goods,Functional
+The system should group orders by location and trip to facilitate delivery ,Functional
+The system should create shipping documents to include invoice and goods received note ,Functional
+The system should record stock issues,Functional
+The system should create transport order ,Functional
+The system should estimate weight and dimensions of packaging ,Functional
+The system should modify dimensions and weight of packaging ,Functional
+The system should display available transport modes and type ,Functional
+The system should determine temperature control requirements ,Functional
+The system should provide notification of order detail,Functional
+The system should provide notification of tracking number,Functional
+The system should provide notification of vehicle,Functional
+The system should provide notification of driver ,Functional
+The system should schedule transport resources ,Functional
+The sytsem should track location and update ETA,Functional
+The system should record transport history ,Functional
+The system should advise options available,Functional
+The system should record client selected method,Functional
+The system should capture reason for stock-outs ,Functional
+The system should record information on stock register ,Functional
+The system should alert potential product shortages ,Functional
+The system should record appointment ,Functional
+The system should provide the cab driver details,Functional
+The system should allow the user to view the cab time booking,Functional
+The system should allow the user to view cab booking date ,Functional
+The system should allow the user to view the type of booking,Functional
+The system should provide the user with different cab booking options,Functional
+The system should allow the user to track their cab,Functional
+The system should allow the user to share their ride status,Functional
+The system should allow the user to view the estimated price in advance,Functional
+The system should display the number of cabs available in a particular location,Functional
+The system should allow the user to feed their location,Functional
+The system should allow the user to cancel the cab booking,Functional
+The system should provide notification to the user on the cab arrival,Functional
+The system should allow the user to update their location,Functional
+The system should allow the user to call the cab driver,Functional
+The system should allow the user to text the cab driver ,Functional
+The system should allow the driver to make a call to the user,Functional
+The system should provide the cab details to the user,Functional
+The system should send a confirmation message to the user on cab booking,Functional
+The system should display the list of movies running near to the user's location,Functional
+The system should allow the user to select the seats as per his choice,Functional
+The system should display the list of nearby theatres,Functional
+The system should display the movie timings,Functional
+The system should provide the price of the movie tickets,Functional
+The system should allow the user to do advance payment,Functional
+The system should display the ratings of list of movies,Functional
+The system should display the list of movies running in all the location,Functional
+The system should allow the user to order food items from the food court of the theatre he is watching movie in,Functional
+The system should display the seats available in the theatre,Functional
+The system should allow the user to book rooms,Functional
+The system should allow the user to search for rooms,Functional
+The system should disaply the different types of rooms available in hotel,Functional
+The system should display the price of the rooms,Functional
+The system should allow the user to view their previous bookings,Functional
+The system should display the ammenties available in hotel,Functional
+The system should display the nearby interest places of a hotel,Functional
+The system should disaply the user list of hotel names,Functional
+The system should allow the user to look for hotels near to their location,Functional
+The system should display the list of offers available ,Functional
+The system should allow the admin to add guest details,Functional
+The system should allow the admin to update guest details,Functional
+The system should allow the admin to manage room details,Functional
+The system should allow the admin to update room rates as per demand ,Functional
+The system should provide email notifications to the users,Functional
+The system should allow the user to view reviews of other users,Functional
+The system should provide the user with check in details,Functional
+The system should provide the user with check out details,Functional
+The system should provide the bill at the checkout time,Functional
+The system should allow the user to conatct the hotel staff,Functional
+The system should allow the user to view his previous searches,Functional
+The system should provide notifications to the users on the basis of their searches and bookings ,Functional
+The system should allow the user to lodge compalints against the hotel services,Functional
+The system should allow the user to save his favorite hotels in a list,Functional
+The system should allow the user to subscribe to receive notification about any particular hotel,Functional
+The system should display the list of restaurants name,Functional
+The system should display the address of restaurants ,Functional
+The system should display the rating of restaurant,Functional
+The system should display the food items available,Functional
+The system should display the dine in option,Functional
+The system should display the offers on takeaway option,Functional
+The system should display the cost of food items available,Functional
+The system should display the scratch cards available,Functional
+The system should allow the customer to order food,Functional
+The system should allow the customer to bookmark their favorite restaurants,Functional
+The system should allow the customer to track their ordered food,Functional
+The system should allow the admin to send notification to the customer about the food status,Functional
+The system should allow the admin to add food items in the menu,Functional
+The system should allow the admin to delete food items from the menu,Functional
+The system should display the list of restaurants currently accepting order,Functional
+The system should display the list of food items out of stock,Functional
+The system should allow the user to view his pending order,Functional
+The system should allow the admin to update price of the food items,Functional
+The system should allow the admin to add photos of the food items,Functional
+The system should allow the admin to add description for a given food item,Functional
+The system should display the admin to update the description for a given food item,Functional
+The system should provide the details of the delivery man to the user,Functional
+The system should allow the user to call the delivery boy,Functional
+The system should display the conatct information the of restaurants ,Functional
+The system should display the list of restaurants name,Functional
+The system should allow the user to chat with the customer support,Functional
+The system should allow the user to add money to the wallet,Functional
+The bot should respond to any input it receives,Functional
+The bot should respond in text format,Functional
+The bot should respond in speech format,Functional
+The bot should be able to create graphs from queried data,Functional
+The bot should be able to create private cloud or virtual machine instances from user input,Functional
+The system should allow users to find the most recent and relevant booking options,Functional
+The system should enable users to book and pay their tickets only in a time boxed manner after tickets being added to the cart,Functional
+"The system should only allow users to move to payment only when mandatory fields such as date, time, location has been mentioned",Functional
+The system should consider timezone synchronisation when accepting bookings from different timezones,Functional
+The system should send booking confirmation to user to the specified contact details,Functional
+ The system should give the user an option to cancel a confirmed ticket or a blocked ticket,Functional
+The system should allow the user to view ticket status,Functional
+The system should allow the user to reschedule their tickets,Functional
+The system should allow the user to check for the availability of train,Functional
+The system should allow the user to check for the availability of flight,Functional
+The system should allow the user to create new account,Functional
+" The system should display the content from sources like NETFLIX, AMAZONPRIME etc",Functional
+The system should display the contents in alphabetical order,Functional
+The system should dallow the user to select any content,Functional
+The system should allow the user to view any TV shows and movies,Functional
+The system should allow the user to download any TV shows and episode,Functional
+The system should allow the user to pay for subscription,Functional
+The system should allow the user to unsubscribe whenever they want to,Functional
+ The system should send a confirmation message to the user regarding the subscription,Functional
+"The system should provide a receipt detailing a customers’ purchase information and include name of customer, items purchased, cost of each item and total cost",Functional
+"The system should provide weekly, monthly and yearly reports about sales",Functional
+ The system should provide the study materials to the user in text format,Functional
+The system should provide the study materials to the user in video format,Functional
+The system should allow the user to download the study material,Functional
+ The system should allow the user to buy study materials,Functional
+ The system should allow the user to attempt exams,Functional
+The system should allow the user to check their progress,Functional
+ The system should allow the user to contact the support center,Functional
+ The system should check weather information which includes water safety information,Functional
+The system should provide information about storms and intensity of rains,Functional
+The system should check the real time market price,Functional
+The system should provide fishing tips like location of fishing areas,Functional
+The system should provide information like fish procurement needs,Functional
+The system should provide contact numbers of buyers and sellers,Functional
+The system should provide an interface to the admin to enter the details of faculty members,Functional
+The system should provide an interface to the admin to enter the details of subject,Functional
+The system should allow the admin to store the subject details,Functional
+The system should provide an interface to the admin to enter the details of students,Functional
+The system should provide an interface to the admin to enter the details of classroom,Functional
+The system should allow the admin to store the student details,Functional
+The system should allow the admin to store the classroom details,Functional
+The system should allow the admin to generate the timetable,Functional
+The system should allow the admin to update any changes in the timetable,Functional
+The system should allow the user to fix appointments with doctor,Functional
+The system should provide management of local payment application,Functional
+The system should do identification of customer prior to enrolment,Functional
+The banks should give the users a unique identification that enables them to access the payment,Functional
+The system should allow the user to request details of the last ‘n’ number of transactions he has performed on any account.,Functional
+The system should allow the user can make a funds transfer to another account in the same bank.,Functional
+The system should allow the user to request for cheque book,Functional
+The system should allow the user to view his mothly statement,Functional
+The system should allow the user to take printout of his monthly statement,Functional
+The system should provide the user with bank enquiry facility,Functional
+The system should display the payment brand name or logo during the payment process,Functional
+The system should allow the registration of several and different payment schemes and brands.,Functional
+The system should allow the user should to set parameters for each means of payment,Functional
+The system should not allow any mediating party to decrypt the payment data that are transmitted encrypted.,Functional
+The system should allow the user to preferably choose one as default means of payment.,Functional
+The system should allow the user to have access to a reasonable transaction history,Functional
+The system should allow the user should to enter atm card details,Functional
+The system should validate the atm card details,Functional
+The system should allow the user to set pin,Functional
+The system should allow the user to change pin,Functional
+The system should validate the pin entered by the user,Functional
+The system should allow the user to enter the amount to be withdrawn,Functional
+The system should display the debited amount to the user,Functional
+The system should display the credited amount to the user,Functional
+The system should notify the user if the amount is insufficient,Functional
+The system should display with an error message otherwise,Functional
+The system should allow the user to select photos from phone gallery,Functional
+The system should provide the user the options to select photos from different files,Functional
+The system should allow the user to download any online photos,Functional
+The system should allow the user to create collage,Functional
+The system should display the different layouts for collage,Functional
+The system should allow the user to select any layout for making collage,Functional
+The system should allow the user to create a collage,Functional
+The system should display the different filter options,Functional
+The system should allow the user to select any photo filter option,Functional
+The system should ask the user to edit photos,Functional
+The system should ask the user for confirmation before editing the photos,Functional
+The system should allow the user to save the edited photo,Functional
+The system should allow the user to link to social networking sites,Functional
+The system should allow the user to resize their photos,Functional
+The system should provide the user with share option,Functional
+The system should allow the user to cancel the changes made to the photos,Functional
+The system should allow the user to create animations,Functional
+The system should provide the user with the different options available to use the edited photo like as wallpaper,Functional
+The system should allow the user to enter numbers for calculation,Functional
+The system should display the numeric keyboard to the user,Functional
+The system should allow the user to perform the different arithmetic operations,Functional
+The system should display the result,Functional
+The system should allow the value to be stored in the memory for later recall,Functional
+The system should allow the user to reenter any value,Functional
+The system should allow the user to erase any value,Functional
+The system should allow the values in the display to be copied for pasting into any other application,Functional
+The system should display the list of services provided,Functional
+The system should provide the list of nearby nurseries,Functional
+The system should allow the user to book a gardener,Functional
+The system should provide the details of the gardener,Functional
+The system should display the gardening instructions and techniques,Functional
+The system should allow the user to count the number of kilometers he has walked,Functional
+The system should allow the user to view his past exercise records,Functional
+The system should display the number of calories burnt in day,Functional
+The system should allow the user to set an alarm ,Functional
+The system should allow the user to check their diabetes,Functional
+ The system should provide the user health related instructions,Functional
+The system should allow the user to fill in their requirements,Functional
+The system should display the list of jobs available,Functional
+The system should allow the user to apply for jobs,Functional
+The system should allow the user to take a printout of his application form,Functional
+The system should allow the user make changes in his profile,Functional
+The system should allow the user to subscribe to the job openings to receive notification,Functional
+The system should allow the user to upload his resume,Functional
+The system should display the list of jobs available to the user on the basis of his marks percentage,Functional
+The system should allow the user to select the job profile he wants to apply for,Functional
+The system should provide the user with different study materials,Functional
+The system should display the information about the companies,Functional
+The system should allow the user to create videos,Functional
+The system should allow the user to upload videos,Functional
+The system should allow the user to update created videos,Functional
+The system should allow the user to delete videos,Functional
+The system should allow the user to view the list of created videos,Functional
+The system should display the course status,Functional
+The system should display the users current schedule,Functional
+The system should allow the user to add a course,Functional
+The system should allow the user to drop a course,Functional
+The system should allow the user to check past grades earned from each course taken up to the last completed semester,Functional
+The system should keep a cumulative count of credits finished,Functional
+The system should display a computed value of current GPA,Functional
+The system should stop a registration request course for error conditions,Functional
+The system should be open-source and published under MIT license,Non-functional
+The system should be able to reply under 30 seconds to users' queries,Non-functional
+The system should provide an interface such that the user should feel that he /she is talking to a person ,Non-functional
+The system should provide the users to authenticate themselves before being able to qurey information from the bot,Non-functional
+The system should be able to provide a best quality experience to user,Non-functional
+The system should be able to provide a reliable experience to user,Non-functional
+The system should be able to be available at all time whenever user needs it,Non-functional
+The system should be able to provide the user to use any hardware platforms that are available or will be available in the future,Non-functional
+The system should provide the end-user to use the system on any OS,Non-functional
+The system should provide a fast experience to the users,Non-functional
+The system should provide a secure experience to the users,Non-functional
+The system should provide the user an accessbility of editing or changing only his personal information but not anything related to system's work,Non-functional
+"The system should be able to follow the design conventions which allow for familiar location of drop down menus, help etc.",Non-functional
+The system should be able to provide an intaerface such that the input errors will be returned in red with approiate message box,Non-functional
+The system should be able to provide an red flag to the system admistrator if the user attempts to login and fail more than three times ,Non-functional
+The system should provide the search results which should populate within acceptable time limits,Non-functional
+The system should be helpful to user to fill in te mandatory fields ,Non-functional
+The system should be helpful in replying back to user if there are any worng inputs,Non-functional
+The system should be able to accept the payments via different payments methods,Non-functional
+The system should visually confrim the ticket booking,Non-functional
+The system should send the booked thicket information to the user's contact,Non-functional
+The system should send the booked thicket information to the user's Mail ,Non-functional
+The system should be easy to use by all employees including sales representatives and managers,Non-functional
+The system should be avaialble in several languages,Non-functional
+The system should be able to allow several sales to be made at the same time without downgrading the performance,Non-functional
+The system should be able to work to automate all the manual work,Non-functional
+The system should be able to run in high speed,Non-functional
+The system should be able to work with accuracy,Non-functional
+The system should be alble to show updated data without any ambuiguity,Non-functional
+The system should provide an secure access to confidential data to only authenticated people,Non-functional
+The system should have a better component design to get better performace at peak time,Non-functional
+The system should be able to have a flexible service based architecture that will be highly desirable for future extensions,Non-functional
+The system should be able to provide the capability to audit the main security functoins in order to increase the security,Non-functional
+The system should be able to provide the user to print all information regarding his transactions ,Non-functional
+The system should provide the user to access reasonalbe transaction history,Non-functional
+The system should be able to include time management in the user interface for some security issues,Non-functional
+The system should provide the uer to choose any transaction method as his default payment method,Non-functional
+The system should be able to look after that no meadiating party should be able to decrypt the payment data that are transmitted encrypted,Non-functional
+The system should authenticate the user before he starts the payment,Non-functional
+The system should provide the registrar and university administrators to extract summarized and rolled up data into meaningful information,Non-functional
+The system should maintain the exsisting DB2 registration databse as main repository of the data,Non-functional
+The system should provide with some data handling routines ,Non-functional
+The system should provide data validation routines to the users,Non-functional
+The system should be able t commit transactions that are completed and/or rollback unfinished or time-out transactions,Non-functional
+The system should be able to handle the data errors from the user's end and from the backend databse processing,Non-functional
+The system should be able to resolve locking issues ,Non-functional
+The system should be able to handle the concurrent use of the system on 24/7 basis,Non-functional
+The system should be able to operate in windows patform environment,Non-functional
+The system should prompt user to make a backup at the end of the operational day,Non-functional
+The system should let user to place an order in ashort period of time,Non-functional
+The system should be able to validate the username and passowrd of the user in order to login ,Non-functional
+The system should be able to validate the username and password of the user in order to make changes to the system,Non-functional
+The syetm should let the user to place the order in short peroid of time,Non-functional
+The system should completely perform the billing process in a short period of time,Non-functional
+The system should request the current password of the user in order to let them change to a new password,Non-functional
+The system should have an easy understanding graphic user interafce that deals with the user,Non-functional
+The system should let the user to easily undestand the functionality of each modules ,Non-functional
+The system should only let the management level users to edit the menu cards information by having an authorization login checking,Non-functional
+The system should retrieve relatedinformation from the databse and generate the report to the user,Non-functional
+The system should allow the user to add in extra remark regarding the order ,Non-functional
+The system should be able to provide an high throughput,Non-functional
+The system should be available to customers to access banking services 24 hours a day with minimum downtime period for backup and maintenance,Non-functional
+The system should provide facilities for bank to offer new services and products onto its homepage,Non-functional
+The system should reduce the cost of processing transactions ,Non-functional
+The system should reduce the number of branches required to service an equivalent number of customer,Non-functional
+The system sould ensure adequate back up of data as may be required by their operations,Non-functional
+The system should provide well documeneted and tested businedd continuity plans that address all aspects of the bank's business,Non-functional
+The system should be able to back up both data and software periodically,Non-functional
+The system should be able to automate the backup procedures os preffered to obviate operator errors and missed back-ups,Non-functional
+The system should be able to place the recovery and businned continuity measures based on criticality of the systems at one place ,Non-functional
+The system should have a documeneted plan with the organization ,Non-functional
+The system should have assignement of responsibilities of the key decision making personnel ,Non-functional
+The system should be able to protect the username and password of the users,Non-functional
+The system should provide special password contraints for increasing the security of the user account,Non-functional
+The system should be highly secured and unable to be hacked,Non-functional
+The system should be able to impose a periodic change of passwords,Non-functional
+The system should provide an auto timeout feature that warns the user every 30 seconds prior to a pending timeout. ,Non-functional
+The system should halt the internet banking sessions and users are presented once gain with log-on screen,Non-functional
+The system should provide an sign-off button to user before going anywhere else on the web ,Non-functional
+The system should deny the access after a pre-determined number of failed loh-in attempts,Non-functional
+The system should provided contact to user in case if user has been locked out,Non-functional
+The system should provide the server authentication by using the lates techniques of data encryption,Non-functional
+The system should not provide the user to access the information of the other users,Non-functional
+The system should be able to handle bugs without failures,Non-functional
+The system should enable the user to trace the state of his/her transaction at any time,Non-functional
+The system should have an off-site back up to recover major failures/disasters to ensure business continuity,Non-functional
+The system should be reliable enough to sustain in any condition,Non-functional
+The system should be easy to code and do any changes if required ,Non-functional
+The system should poll the sensor every 10 seconds ,Non-functional
+The system should download the new status parameters within 5 minutes of a change ,Non-functional
+The system should not emit noxious gases that damage people's health,Non-functional
+The system should provide only the direct managers to see the personnel records of their staff,Non-functional
+The system should prevent its data from incorrect data being introduced,Non-functional
+The system should protect itself from intentional abuse,Non-functional
+The system should make its user aware of its information practices before collection data from them,Non-functional
+The system should notify customers of changes to its information policy,Non-functional
+The system should comply with MilSpec standards,Non-functional
+The system should comply with insurance industry standards,Non-functional
+The system should be developed according to SSADM standard development steps,Non-functional
+"The system should have no more than X bugs/1K LOC""",Non-functional
+The system should use less memory and should easily be accessible by the user,Non-functional
+The system should be designed in such a way that cheap hardware must be installed to access and use it effectively,Non-functional
+The system should not have any hardware limitations,Non-functional
+The system should be designed to work with the low specification hardware so that it could easily work with the high specification hardware,Non-functional
+The system should manage its memory wisely so that none of the memory part goes wasted,Non-functional
+The system modules should be designed in such a way that a new module can easily be integrated with it ,Non-functional
+The system pages should not take more than 6 seconds to load on a DSL broadband connection,Non-functional
+The system should be throttled or slowed down on heavy loads to ensure service for everybody,Non-functional
+The system should be able to support 100 concurrent users without any performance degradation,Non-functional
+The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components,Non-functional
+The system MTBF (if any) should not be less than 2 months ,Non-functional
+The system MTTR should not be more than 2 hours in case of a failure that leads to a system outrage,Non-functional
+The system should provide the user to register into website if they want to do more than just read / browse site content,Non-functional
+The system should have a secure server ensure confidentiality of customer’s credit card and other details,Non-functional
+The system should be difficult to gain access to the site in an illegal manner,Non-functional
+The system should not take more than 120 seconds for a new user to register for an account,Non-functional
+The system should not take more than 90 seconds for a registered user to place an order,Non-functional
+The system should use MySQL as the database,Non-functional
+The system should use Apache’s Tomcat Web-Server to deploy the application.,Non-functional
+The system should use Java and allied web technologies for development of the website,Non-functional
+The system documents delivered should adhere to the IEEE standards for software engineering ,Non-functional
+The system should provide images that must be procured through legal channels and there should be no copyright violations.,Non-functional
+The system should be developed and deployed within the allotted budget of 5 Million dollars,Non-functional
+The system should be easy enough to maintain that someone else could do it with a manual and a few hours training,Non-functional
+The system should be portable enough to be moved over to a new server with minimal downtime,Non-functional
+The system should be able to protect and preserve transactions,Non-functional
+"The system should be developed in such a way that it can be easily reused, deployed and tested",Non-functional
+The system should take the input PIN within 20 seconds,Non-functional
+The system servers should be able to have a load balancing system,Non-functional
+The system should allow only holders of current security clearance who can enter national headquaters building,Non-functional
+The system should not dispense doses of medication that are greater than maximum amount prescribed by the physician,Non-functional
+The system should send a link to change their password in case if user has forgotten their password,Non-functional
+The system should provide the all course lessons in text as well as in audo content,Non-functional
+The system should not retain customer credit or debit card information entered during the Checkout payment processing,Non-functional
+The system should load all course lesson videos in 2 seconds or less.,Non-functional
+The system should back up the customers orders at least once per month to prevent data loss.,Non-functional
+The system should rell back to resotre the data to pre-session condition in case when an update faailure is detected all updates performed during failed session,Non-functional
+The system should have the option to download course materials when viewing a course lesson or the course overview,Non-functional
+The system should multiple course lesson videos within a specific course to be pre-viewable (played prior to purchasing the course),Non-functional
+The system should be scalable to accommodate unrestricted growth in the number of students taking on-demand courses,Non-functional
+The system should load and launch one or more courses from a neutral party’s website,Non-functional
+The system should leave all website content and administrator settings unchanged while installation of plug-in upgrades,Non-functional
+The system should clearly define interface between the RQ Website and an external video host system,Non-functional
+"The system should allow student to view course lesson videos from multiple operating systems including Microsoft Windows, macOS, and Android",Non-functional
+The system should be reused on frequently asked questions related specifically to on-demand courses,Non-functional
+The system should ensure that the employee salary data can be accessed only by authorized users,Non-functional
+The system should not allow employees to update their own salary information,Non-functional
+The system should report to the security administrator in case if emplyee tries to update his/her salary,Non-functional
+The system should provide the users with a notification of profile changes via preferred communication method of record when profile information is modified.,Non-functional
+The system should be accessible to people with disabilities in accordance with the Americans with Disabilities Act of 1990,Non-functional
+The system should be available for use between the hours of 6:00 a.m. and 11:00 p.m. CST,Non-functional
+The system should achieve 100 hours MTBF (mean time between failure),Non-functional
+The system should achieve 99.5% up time of CIF system,Non-functional
+The system should be at least 99.0 percent available on weekdays between 6:00 a.m. and 11:00 p.m. local time,Non-functional
+The system should be at least 99.95 percent available on weekdays between 4:00 p.m. and 6:00 p.m. local time,Non-functional
+The system should present a user with notification informing them that the system is unavailable,Non-functional
+The system should be available for first‐time use within 24 hours of the start of the install,Non-functional
+The system should never let Taxpayer Social Security number be viewable at the point of entry or at any other time,Non-functional
+The system should provide only the lastfour digits of a SSN to be displayed on printable electronic documents,Non-functional
+"The system should transmit patient records only when the patient has provided a written, signed release form authorizing the transmission",Non-functional
+The system should atleast provide 20 percent of processor capacity and storage space to be available at peak load seasonal periods,Non-functional
+The system should produce a storage capacity warning notification when the 65% capacity threshold is crossed with additional notifications issued thereafter at 5% threshold increments,Non-functional
+The system should provide all monetary amounts that are accurate to two decimal places,Non-functional
+The system should provide accuracy of warehouse temperature readings within plus or minus two degrees Celsius,Non-functional
+The system should be able to be available in multiple languages,Non-functional
+The system should perform all calculations with rounding to 5 decimal places before rounding for presentation to 2 decimal places,Non-functional
+The system should have the probability of failure on demand (POFOD) with in 0.001 when reading the magnetic stripe data on an undamaged card,Non-functional
+The system should roll back all related updates when any update fails to commit,Non-functional
+The system should confirm the receiving terminal is in a ready state prior to the start of transmission,Non-functional
+The system should not permit operation unless the Operator Guard is in Operate position,Non-functional
+The system should not dispense a snack if the temperature of a cold food item goes above 41ºF,Non-functional
+The system should be easy to use by adult members (age 18 to 80) of the public who may only have one hand free,Non-functional
+The system should be evaluated by 90 percent of the user community to be at least as easy to use as the existing system,Non-functional
+The system should be able to be used by people with no training and no understanding of English,Non-functional
+The system should be useable by program developers after five weeks of training,Non-functional
+The system should be able to process invoices and payments in multiple different currencies,Non-functional
+The system should have the ability to add a new user notification method by developing and plugging in” the software necessary to support the new method,Non-functional
+The system should allow multiple independent courses to be offered with multiple scheduled offerings,Non-functional
+The system should be suitable for use by any ABC Corporation office in any country in which ABC Corporation operates,Non-functional
+The system should have a regression test procedure that allows complete re‐testing within 2 business days,Non-functional
+The system should not be shut down for maintenance more than once in a 24‐hour period,Non-functional
+The system should able to modify existing statements to conform to revise regulations from federal government with 24 labor hours,Non-functional
+The system should not nest the functional calls more than two levels deep,Non-functional
+The system should provide the user to modify every piece of text that he can see without changing source code,Non-functional
+The system should support all assigned adjustors following any catastrophic event,Non-functional
+The system should be scalable to support unlimited growth in the number of employees,Non-functional
+The system should be scalable to accommodate its use by an unlimited number of agency offices worldwide,Non-functional
+The system should be scalable to manage an unrestricted number of additional rules,Non-functional
+"The system should support unlimited customer, account, and transaction relationships",Non-functional
+"The system should scale to potential hourly spikes of 1,000% in authorization requests during peak holiday shopping",Non-functional
+The system should have maximum number of test cases to cover testing of any particular source code module as 20,Non-functional
+The system should be possible to upgrade to it from any previous version,Non-functional
+"The system should include software that tests the operating system and the communication links, memory devices, and peripheral devices",Non-functional
+The system should have installation process that is convenient and involves the entry of little information by the user,Non-functional
+The system should be implemented using Release 5 of Library 4B,Non-functional
+The system should be able to interface with any HTML (HyperText Markup Language) browser,Non-functional
+"The system should have identical development environment configurations, and all testers should have identical quality assurance environment configurations",Non-functional
+The system should be able to access information from the previous baselined version,Non-functional
+The system should not use picture icons that could be considered offensive in any country where the product is marketed,Non-functional
+The system should provide a standard interface that can be used by meter operators for installation and maintenance purposes without disturbing any meter seals and reinstating any tamper detection covers,Non-functional
+The system should be developed for Microsoft Vista and Macintosh operating system platforms,Non-functional
+"The system should run in business offices, but the intent is to have a version which will run in manufacturing assembly plants",Non-functional
+The system should record timestamps by the transaction processing system that are in in UTC (Universal Time Coordinated) when placed into permanent storage,Non-functional
+The system should be obvious to the user whenever a time element is displayed in time zone,Non-functional
+The system should be designed based on the payment module from the ALPHA product line,Non-functional
+The system DB code should reusable and exported into a library,Non-functional
+The system should handle 20 Million Users while maintaining performance objectives,Non-functional
+The system should support system admin in troubleshooting problems ,Non-functional
+The system should predict cost within 90% of actual cost,Non-functional
+"The system should log every state and state change of every surface computer, tablet and display to provision recovery from system failure",Non-functional
+The system should be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss),Non-functional
+The system should be able to display a menu at all times to facilitate manual order taking should the need arise,Non-functional
+The system should utilise periodic 30-second keep-alive messages between tablets and the server to monitor tablet operational status,Non-functional
+The system should flag tablets that fail to send timely keep-alive messages as non-operational and disassociate the assigned waiter from the tablet,Non-functional
+The system should use wireless communication that must be encrypted using SSLv3 at the application layer and WPA2-PSK at the data link layer,Non-functional
+The system should have the WPA2-PSK password used for wireless communication must have a bitstrength of at least 80 bits,Non-functional
+The system should have the WPA2-PSK password used for wireless communication must be changed every three months,Non-functional
+The system should provide waiter password that is used for tablet login must have a bit-strength of at least 64 bits,Non-functional
+The system should provide waiter password that is used for tablet login must be changed every three months,Non-functional
+The system should provide waiter that he should only be able to log into one tablet at any given instance of time,Non-functional
+The system should should reject and notify the waiter who attempts to log in to a second tablet while he is already logged into another table,Non-functional
+The system should access to supervisor level for unrestricted access to system functionality,Non-functional
+The system should provide a display that does not require a user to log in,Non-functional
+The system elemets should no loger take more than 10 seconds to restart,Non-functional
+The system should not dismiss an engaged menu unless the customer requests it,Non-functional
+"The system should be capable of supporting no less than 200 concurrent connections from any combination of surface computers, tablets and displays",Non-functional
+"The system should be capable of supporting an arbitrary number of surface computers, tablets and displays, that is, it should provide no limit on how many devices are in the system",Non-functional
+"The system should be capable of supporting an arbitrary number of active meals/orders, that is, no meals/orders should be lost under any circumstances",Non-functional
+"The system should be capable of supporting an arbitrary number of active customer payments, that is, no payments should be lost under any circumstances",Non-functional
+The system should be linked with the bank server through communication systems,Non-functional
+The system should work on client-server architecture,Non-functional
+The system should require aninternetserver and which will be able to run PHP application,Non-functional
+The system should be testable to ensure correctness,Non-functional
+The system should perform the same way irrespective to its Operating System environments,Non-functional
+The system should be transmitted between CS sub-system and Web sub-system in less than 5 seconds 95% of the times,Non-functional
+"The system should have virtually no user limit, thus it depends on the used infrastructure",Non-functional
+The system should be able to link the database from Chamilo 1.9,Non-functional
+The system should be able to link the database from Moodle 2.2,Non-functional
+The system should be able to show error messages to the user when a problem is detected,Non-functional
+The system should keep a log of the found failures in the system,Non-functional
+The system should email critical errors to the system administrator,Non-functional
+The system should keep a log of the accesses to the system,Non-functional
+The system should be able to recover the information in case of failure,Non-functional
+The system should encrypt the user’s important information (user/password information),Non-functional
+The system should be able to store in the device relevant user authentication information,Non-functional
+The system should be able to encrypt information using RSA,Non-functional
+The system should be able to encrypt/decrypt information using RSA,Non-functional
+The system should be able encrypt the relevant user authentication information stored in a device,Non-functional
+The system should be voluntary and the system should follow the European regulations about personal data protection,Non-functional
+The system should beaccessible on and off campus via broadband internet connection and using required ID/password combination,Non-functional
+The system should provide all functionalities and activities supported by Moodle LMS,Non-functional
+The system should provide User interface to create a policy,Non-functional
+The system should provide User interface to add a context,Non-functional
+The system should provide User interface to edit policy,Non-functional
+The system should no longer than 3 milliseconds to response to queries and to load onto the screen after the user submits the query for 1 user,Non-functional
+The system should display confirmation messages to users within 4 miliseconds after the user submits information to the system,Non-functional
+"The system should check the fact that all clients must be attached to one server, so there is an appropriate control of the information",Non-functional
+The system should set the cooking device configuration based on the recipe,Non-functional
+The system should automatically generate a shopping list based on ingredients used in cooking,Non-functional
+The system should have the ability to update the grocery list through the interface,Non-functional
+The system should provide the customer with the e-pill MD.2 Automatic Pill Dispenser,Non-functional
+The system should alert primary caregivers when medications are not dispensed after three reminders,Non-functional
+The system should interact with the Pill Dispenser by receiving information for further processing,Non-functional
+The system should automatically adjust instructions based on serving size desired,Non-functional
+The system should turn off power to all cooking devices in the case of fire alarm,Non-functional
+The system should alert the customer if the moisture remains present for more than 5 minutes after a shower is finished,Non-functional
+The system should detect moisture on the bathroom floor through a sensor,Non-functional
+The system should be able to function the heating and cooling through traditional interfacing,Non-functional
+The system should be able to interface with motion sensor control,Non-functional
+The system should be able to interface with aural sensor control,Non-functional
+The system should be able to interface with timer controls,Non-functional
+The system should be able to interface with RFID,Non-functional
+The system should allow light output to be dimmable,Non-functional
+The system should provide visual response to all commands that do not produce a tangible output,Non-functional
+The system should provide audio response to all commands do not produce a tangible output,Non-functional
+The system should mimic the standard output functioning of particular style device,Non-functional
+The system should have large lettered keyboards,Non-functional
+The system should mimic standard input functioning of the particular style of device,Non-functional
+The system should prompt the system before any command is given,Non-functional
+The system should not respond to words from inter-personal conversation,Non-functional
+The system should not respond to voice commands from white noise media,Non-functional
+The system should provide foot control alternatives for ALF features,Non-functional
+The system should provide touch screen control alternatives for ALF features,Non-functional
+The system should support minimally a 19-inch monitor for customer side,Non-functional
+The system should have large letter text and screen symbols,Non-functional
+The system should have 24 X 7 availability so that student can use it at any time according to his convenience,Non-functional
+The system should provide less response time so that student and faculty should feel good while using this virtual classroom system,Non-functional
+The system should synchronise the video and audio of lectures well,Non-functional
+The system should have good audio quality that is clear,Non-functional
+The system should have good video quality that is clear,Non-functional
+The system should have the minimum software to run Moodle,Non-functional
+The system should have the minimum software to host Moodle,Non-functional
+The system should run Moodle provided they have the software required,Non-functional
+The system should have the minimum hardware with the required software specifies,Non-functional
+The system should make sure that the correct interfaces and functionalities are available according to the user type (Teacher or Student) that is using it,Non-functional
+The system should be designed such that it can be added to any Moodle system,Non-functional
+The system should be designed with the view that this optional functional requirements will be implemented at a later date,Non-functional
+"The system should be designed with the view that bugs may need fixing, for future optimisations and for adding extra functionalities for other developers in the Moodle society",Non-functional
+The system should let the optimized moodle LMS to be available to users all the time,Non-functional
+The system should let the admin to access the files generated by the user and application should store these files in MySQL database and must not share them,Non-functional
+The system should accommodate high number of items and users without any fault,Non-functional
+The system should not cause any harm to human users,Non-functional
+The system should show all product categories to customer. If customer select item then they listed in shopping cart for buying,Non-functional
+The system should use SSL (secured socket layer) in all transactions that include any confidential customer information,Non-functional
+The system should run on a portable device which also supports a camera,Non-functional
+"The system should display the disclaimers, copyright, word mark, trademark and product warranties of the Marvel electronics and home entertainment",Non-functional
+The system should use the HTTP protocol for communication over the internet and for the intranet communication will be through TCP/IP protocol suite,Non-functional
+The system should be verisign like software which should allow the users to complete secured transaction,Non-functional
+The system should communicate with export regulation system to validate export regulations,Non-functional
+The system should communicate with external Tax system to calculate tax,Non-functional
+The system should communicate with shipping system for tracking orders and updating of shipping methods,Non-functional
+The system should communicate with Sales system for order management,Non-functional
+The system should communicate with CRM system to provide support,Non-functional
+The system should communicate to credit management system for handling financing options,Non-functional
+"The system should communicate with billPay system to identify available payment methods , validate the payments and process payment",Non-functional
+"The system should communicate with the content manager to get the product specifications, offerings and promotions",Non-functional
+The system should communicate with the Configurator to identify all the available components to configure the product,Non-functional
+"The system's UI should be implemented using any tool or software package like Java Applet, MS Front Page, EJB etc",Non-functional
+"The system's UI should compatible to any browser such as Internet Explorer, Mozilla or Netscape Navigator by which user can access to the system",Non-functional
+The system should encrypt all of its databases,Non-functional
+The system should never display a customer’s password. It should always be echoed with special characters representing typed characters,Non-functional
+The system should not leave any cookies on the customer’s computer containing any of the user’s confidential information,Non-functional
+The system should not leave any cookies on the customer’s computer containing the user’s password,Non-functional
+The system should confirm all transactions with the customer’s web browser,Non-functional
+The system should automatically log out all customers after a period of inactivity,Non-functional
+The system shoulduse secure sockets in all transactions that include any confidential customer information,Non-functional
+The system should depend upon hardware components of the client/customer for its performance,Non-functional
+The system should take initial load time depending on internet connection strength which also depends on the media from which the product is run,Non-functional
+The system should be based on web and has to be run from a web server,Non-functional
+The system should provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet,Non-functional
+The system should provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability,Non-functional
+The system should provide RAID V Disk Stripping on all database storage disks,Non-functional
+The system should provide for replication of databases to off-site storage locations,Non-functional
+The system should provide storage of all databases on redundant computers with automatic switchover,Non-functional
+The system should multi language support,Non-functional
+The system should provide handicap access,Non-functional
+The system should provide use of icons and toolbars,Non-functional
+The system should provide a digital image for each product in the product catalog,Non-functional
+The system should provide a uniform look and feel between all the web pages,Non-functional
+The system should result in the confiscation of the ATM card in case if customer fails to provide correct PIN in three attempts,Non-functional
+The system should allow the customer to enter the correct PIN in no more three attempts,Non-functional
+The system should ask for the transaction type after satisfactory validation of the customer PIN,Non-functional
+"The system should determine that sufficient funds exist in the requested account, that the maximum daily limit has not be exceeded",Non-functional
+"The system should print the receipt containing information about the transaction, and the card should be ejected",Non-functional
+The system should prompt the customer to enter account number when a customer selects query transaction,Non-functional
+"The system should check if there are enough funds available in the from account, which are being requested for transfer to the to account. ",Non-functional
+The system should cancel any transaction if it has not been completed if the customer presses the Cancel button,Non-functional
+The system should enable an ATM operator to shutdown or start up an ATM for routine maintenance,Non-functional
+The system should enable an ATM operator to add cash to the cash dispenser,Non-functional
+"The system should not be responsible for opening or closing of accounts, and to create, update, and delete customer and debit card records",Non-functional
+The system should not be responsible for the maintenance of the hardware devices of the ATM or network facilities,Non-functional
+The system should alert the customer that medications need to be reloaded if 4-days worth or less of medication is remaining,Non-functional
+"The system should integrate telephone, text messaging, and email through a unified interface",Non-functional
+The system should be able to dial the telephone through customer interfaces,Non-functional
+The system should create transcripts of all telephone conversations initiated through the system,Non-functional
+The system should display the transcripts in real time,Non-functional
+The system should save the transcripts automatically,Non-functional
+The system should have the ability to delete transcripts,Non-functional
+The system should automatically add incoming calls to the user directory,Non-functional
+The system should allow telephone conversations through typing interfacing,Non-functional
+The system should not add more than two seconds to the time required to perform an action if the system is not connected,Non-functional
+The system should not reveal any personal data in correlation to usage scenarios or statistics,Non-functional
+The system should provide the ability to reset all settings to the default or a saved configuration,Non-functional
+The system administrator should be able to grant developer privileges to users,Non-functional
+The system should allow all information and applications to be run from the mobile or local infrastructure,Non-functional
+The system should show the avaialbity of flight on the specified date and specified time as many customers are doing advance reservations,Non-functional
+The system should display an error message if the banks have no record of the uuser,Non-functional
+The system should display an error message if the user enters an invalid passcode,Non-functional
+The system should display an error message if the user enters an invalid amount or amount range,Non-functional

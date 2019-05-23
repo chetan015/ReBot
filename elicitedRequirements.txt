@@ -1,0 +1,4 @@
+The system should allow the user to open savings and current account.
+The system should be fast, and load within 1 second.
+The system should allow the user to check account balance.
+The system should support android and ios.

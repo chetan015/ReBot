@@ -1,0 +1,773 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "hey"
+      },
+      {
+        "intent": "greeting",
+        "text": "hello"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi"
+      },
+      {
+        "intent": "greeting",
+        "text": "heya"
+      },
+      {
+        "intent": "greeting",
+        "text": "hi there"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is it going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is life"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How are you doing?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "What's up"
+      },
+      {
+        "intent": "what_are_you",
+        "text": "what are you?"
+      },
+      {
+        "intent": "what_are_you",
+        "text": "what do you do?"
+      },
+      {
+        "intent": "what_are_you",
+        "text": "what can you do?"
+      },
+      {
+        "intent": "what_are_you",
+        "text": "what are you capable of?"
+      },
+      {
+        "intent": "what_are_you",
+        "text": "what are you used for?"
+      },
+      {
+        "intent": "what_are_you",
+        "text": "what should I do?"
+      },
+      {
+        "intent": "thank_you",
+        "text": "thank you"
+      },
+      {
+        "intent": "thank_you",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thank_you",
+        "text": "thanks"
+      },
+      {
+        "intent": "stop",
+        "text": "stop"
+      },
+      {
+        "intent": "stop",
+        "text": "end"
+      },
+      {
+        "intent": "stop",
+        "text": "that's all"
+      },
+      {
+        "intent": "stop",
+        "text": "that's it"
+      },
+      {
+        "intent": "stop",
+        "text": "that is it"
+      },
+      {
+        "intent": "stop",
+        "text": "exit"
+      },
+      {
+        "intent": "stop",
+        "text": "bye"
+      },
+      {
+        "intent": "stop",
+        "text": "good bye"
+      },
+      {
+        "intent": "stop",
+        "text": "bubye"
+      },
+      {
+        "intent": "check_balance",
+        "text": "I should be able to check balance"
+      },
+      {
+        "intent": "check_balance",
+        "text": "the system should allow me to check balance"
+      },
+      {
+        "intent": "check_balance",
+        "text": "the system should allow the user to check balance"
+      },
+      {
+        "intent": "check_balance",
+        "text": "there should be a check balance feature"
+      },
+      {
+        "intent": "check_balance",
+        "text": "I should be able to check balance in my account"
+      },
+      {
+        "intent": "check_balance",
+        "text": "the system should allow me to check my account balance"
+      },
+      {
+        "intent": "open_account",
+        "text": "I want to be able to create an account"
+      },
+      {
+        "intent": "open_account",
+        "text": "the system should provide a feature to create an account"
+      },
+      {
+        "intent": "open_account",
+        "text": "the system should provide a feature to open an account"
+      },
+      {
+        "intent": "open_account",
+        "text": "the system should allow user to create an account"
+      },
+      {
+        "intent": "open_account",
+        "text": "the user should be able to create a new account"
+      },
+      {
+        "intent": "open_account",
+        "text": "the user should be able to open a new account"
+      },
+      {
+        "intent": "open_account",
+        "text": "the system should provide a feature to create a new account"
+      },
+      {
+        "intent": "open_account",
+        "text": "the system should allow user to create a new account"
+      },
+      {
+        "intent": "open_account",
+        "text": "the user should be able to create an account using the system"
+      },
+      {
+        "intent": "open_account",
+        "text": "the user should be able to open an account using the system"
+      },
+      {
+        "intent": "open_account",
+        "text": "I should be able to create an account"
+      },
+      {
+        "intent": "open_account",
+        "text": "I should be able to open a new account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "I want to be able to create a savings account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "I want to be able to open a savings account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "current",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "I should be able to open a new current account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 38,
+            "end": 45,
+            "value": "current",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the user should be able to open a new current account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 48,
+            "end": 55,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the system should provide a feature to create a savings account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 46,
+            "end": 53,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the system should provide a feature to open a savings account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 46,
+            "end": 65,
+            "value": "savings and current",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the system should provide a feature to open a savings and current account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 41,
+            "end": 60,
+            "value": "current and savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the system should allow user to create a current and savings account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "current",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the user should be able to create a new current account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 52,
+            "end": 71,
+            "value": "savings and current",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the system should provide a feature to create a new savings and current account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 47,
+            "end": 54,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the system should allow user to create a new a savings account"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "current",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "the user should be able to create a current account using the system"
+      },
+      {
+        "intent": "open_account_by_type",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "I should be able to create a savings account"
+      },
+      {
+        "intent": "account_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "savings"
+      },
+      {
+        "intent": "account_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "current",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "current"
+      },
+      {
+        "intent": "account_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "current",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "current account"
+      },
+      {
+        "intent": "account_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "savings account"
+      },
+      {
+        "intent": "account_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "current and savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "current and savings"
+      },
+      {
+        "intent": "account_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "current and savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "current and savings account"
+      },
+      {
+        "intent": "account_type",
+        "entities": [
+          {
+            "start": 13,
+            "end": 32,
+            "value": "current and savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "it should be current and savings account"
+      },
+      {
+        "intent": "account_type",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "savings",
+            "entity": "ACCOUNT_TYPE"
+          }
+        ],
+        "text": "it should be a savings account"
+      },
+      {
+        "intent": "speed",
+        "text": "The system should be fast"
+      },
+      {
+        "intent": "speed",
+        "text": "The system should load fast"
+      },
+      {
+        "intent": "speed",
+        "text": "the system should be responsive"
+      },
+      {
+        "intent": "speed",
+        "text": "it should be fast"
+      },
+      {
+        "intent": "speed",
+        "text": "it should be responsive"
+      },
+      {
+        "intent": "speed",
+        "text": "it should be quick"
+      },
+      {
+        "intent": "speed",
+        "text": "it should load soon"
+      },
+      {
+        "intent": "speed_with_load_time",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "1 second",
+            "entity": "TIME"
+          }
+        ],
+        "text": "the system should load within 1 second"
+      },
+      {
+        "intent": "speed_with_load_time",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "500 milliseconds",
+            "entity": "TIME"
+          }
+        ],
+        "text": "it should load within 500 milliseconds"
+      },
+      {
+        "intent": "load_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "1 second",
+            "entity": "TIME"
+          }
+        ],
+        "text": "1 second"
+      },
+      {
+        "intent": "load_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "one second",
+            "entity": "TIME"
+          }
+        ],
+        "text": "one second"
+      },
+      {
+        "intent": "load_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "two seconds",
+            "entity": "TIME"
+          }
+        ],
+        "text": "two seconds"
+      },
+      {
+        "intent": "load_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "2 seconds",
+            "entity": "TIME"
+          }
+        ],
+        "text": "2 seconds"
+      },
+      {
+        "intent": "load_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "two milliseconds",
+            "entity": "TIME"
+          }
+        ],
+        "text": "two milliseconds"
+      },
+      {
+        "intent": "load_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "five hundred milliseconds",
+            "entity": "TIME"
+          }
+        ],
+        "text": "five hundred milliseconds"
+      },
+      {
+        "intent": "load_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "500 milliseconds",
+            "entity": "TIME"
+          }
+        ],
+        "text": "500 milliseconds"
+      },
+      {
+        "intent": "portability",
+        "text": "The system should be portable"
+      },
+      {
+        "intent": "portability",
+        "text": "the system should run on many devices"
+      },
+      {
+        "intent": "portability",
+        "text": "it should be capable of running on several platform"
+      },
+      {
+        "intent": "portability",
+        "text": "it should support many devices"
+      },
+      {
+        "intent": "portability",
+        "text": "it should run on different platforms"
+      },
+      {
+        "intent": "portability_with_platform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 40,
+            "value": "Android and iOS",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "the system should run on Android and iOS"
+      },
+      {
+        "intent": "portability_with_platform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 50,
+            "value": "Android and iOS",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "it should be capable of running on Android and iOS"
+      },
+      {
+        "intent": "portability_with_platform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "iOS",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "it should support iOS devices"
+      },
+      {
+        "intent": "portability_with_platform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Android",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "it should support Android devices"
+      },
+      {
+        "intent": "portability_with_platform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Android",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "it should support Android"
+      },
+      {
+        "intent": "portability_with_platform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 32,
+            "value": "Android and iOS",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "it should run on Android and iOS platforms"
+      },
+      {
+        "intent": "platform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Android and iOS",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "Android and iOS devices"
+      },
+      {
+        "intent": "platform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "iOS and Android",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "iOS and Android devices"
+      },
+      {
+        "intent": "platform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "iOS and Android",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "iOS and Android"
+      },
+      {
+        "intent": "platform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Android and iOS",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "Android and iOS"
+      },
+      {
+        "intent": "platform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Android",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "Android"
+      },
+      {
+        "intent": "platform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "iOS",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "iOS"
+      },
+      {
+        "intent": "platform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Android",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "Android devices"
+      },
+      {
+        "intent": "platform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "iOS",
+            "entity": "PLATFORM_TYPE"
+          }
+        ],
+        "text": "iOS devices"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

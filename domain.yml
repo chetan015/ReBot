@@ -1,0 +1,80 @@
+slots:
+  ACCOUNT_TYPE:
+    type : text
+  TIME:
+    type : text
+  PLATFORM_TYPE:
+    type : text
+  
+intents:
+  - greeting
+  - how_are_you
+  - what_are_you
+  - thank_you
+  - stop
+  - check_balance
+  - open_account
+  - open_account_by_type
+  - account_type
+  - speed
+  - speed_with_load_time
+  - load_time
+  - portability
+  - portability_with_platform
+  - platform
+actions:
+  - utter_greeting
+  - utter_how_i_am
+  - utter_self_description
+  - utter_bye
+  - utter_welcome
+  - elicit_check_balance
+  - utter_what_else
+  - elicit_open_account
+  - utter_ask_account_type
+  - elicit_speed
+  - utter_ask_load_time
+  - elicit_portability
+  - utter_ask_platform
+  - utter_end_code
+  
+templates:
+  utter_greeting:
+    - Hi!
+    - Hi! Nice to meet you.
+    - Hello, my friend.
+  utter_how_i_am:
+    - I am doing ok.
+    - I am good.
+  utter_self_description:
+    - I am a smart requirements elicitation chatbot. You can describe your system requirements to me.
+    - I am REBO, here to help you elicit requirements for your system. You can talk to me about the features you require.
+  utter_bye:
+    - Bye.
+    - Good bye.
+  utter_welcome:
+    - Glad I could help.
+    - You are welcome.
+    - Here to help.
+    - Always there.
+  utter_what_else:
+    - Input the next requirement.
+    - Next requirement please.
+    - What is the next requirement?
+    - What other requirements do you want?
+    - What other features do you want to include?
+  utter_ask_account_type:
+    - What type of account do you want?
+    - Is it a savings account or current account?
+    - Please specify the account type.
+  utter_ask_load_time:
+    - How much time should the system load within?
+    - What is the load time limit for the system?
+  utter_ask_platform:
+    - What platforms should the system support?
+    - Specify the platforms that the system shold be able to run on.
+  utter_end_code:
+    - change screen
+  utter_default:
+    - I am sorry I do not understand that.
+    - I did not understand that.

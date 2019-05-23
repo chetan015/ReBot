@@ -1,0 +1,6 @@
+Functional Requirements:
+FR:The system should allow the user to open savings and current account.
+FR:The system should allow the user to check account balance.
+Non-functional Requirements:
+NFR:The system should be fast, and load within 1 second.
+NFR:The system should support android and ios.

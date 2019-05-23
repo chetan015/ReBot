@@ -1,0 +1,107 @@
+%YAML 1.1
+---
+actions:
+- utter_greeting
+- utter_how_i_am
+- utter_self_description
+- utter_bye
+- utter_welcome
+- elicit_check_balance
+- utter_what_else
+- elicit_open_account
+- utter_ask_account_type
+- elicit_speed
+- utter_ask_load_time
+- elicit_portability
+- utter_ask_platform
+- utter_end_code
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greeting:
+    use_entities: true
+- how_are_you:
+    use_entities: true
+- what_are_you:
+    use_entities: true
+- thank_you:
+    use_entities: true
+- stop:
+    use_entities: true
+- check_balance:
+    use_entities: true
+- open_account:
+    use_entities: true
+- open_account_by_type:
+    use_entities: true
+- account_type:
+    use_entities: true
+- speed:
+    use_entities: true
+- speed_with_load_time:
+    use_entities: true
+- load_time:
+    use_entities: true
+- portability:
+    use_entities: true
+- portability_with_platform:
+    use_entities: true
+- platform:
+    use_entities: true
+slots:
+  ACCOUNT_TYPE:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  PLATFORM_TYPE:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  TIME:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_account_type:
+  - text: What type of account do you want?
+  - text: Is it a savings account or current account?
+  - text: Please specify the account type.
+  utter_ask_load_time:
+  - text: How much time should the system load within?
+  - text: What is the load time limit for the system?
+  utter_ask_platform:
+  - text: What platforms should the system support?
+  - text: Specify the platforms that the system shold be able to run on.
+  utter_bye:
+  - text: Bye.
+  - text: Good bye.
+  utter_default:
+  - text: I am sorry I do not understand that.
+  - text: I did not understand that.
+  utter_end_code:
+  - text: change screen
+  utter_greeting:
+  - text: Hi!
+  - text: Hi! Nice to meet you.
+  - text: Hello, my friend.
+  utter_how_i_am:
+  - text: I am doing ok.
+  - text: I am good.
+  utter_self_description:
+  - text: I am a smart requirements elicitation chatbot. You can describe your system
+      requirements to me.
+  - text: I am REBO, here to help you elicit requirements for your system. You can
+      talk to me about the features you require.
+  utter_welcome:
+  - text: Glad I could help.
+  - text: You are welcome.
+  - text: Here to help.
+  - text: Always there.
+  utter_what_else:
+  - text: Input the next requirement.
+  - text: Next requirement please.
+  - text: What is the next requirement?
+  - text: What other requirements do you want?
+  - text: What other features do you want to include?
